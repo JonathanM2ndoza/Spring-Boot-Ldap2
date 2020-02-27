@@ -42,6 +42,11 @@ Case of failure
 
 ![Screenshot](prtsc/spring-ldap-5.2.png)
 
+### application.properties
+
+![Screenshot](prtsc/spring-ldap-6.png)
+
+
 
 
 
