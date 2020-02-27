@@ -1,4 +1,4 @@
-# Spring-Boot-Ldap2
+# Spring-Boot-Ldap
 Example Authenticating a User with LDAP - Spring Boot
 
 ### Run OpenLDAP docker image
