@@ -24,7 +24,7 @@ import static org.springframework.ldap.query.LdapQueryBuilder.query;
  * @author Jerome Leleu
  * @author Jonathan Mendoza
  */
-@Configuration
+
 public class LdapClient {
 
     public static final String LDAP_BASE_DN = "ldap.base.dn";
