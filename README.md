@@ -15,7 +15,34 @@ docker run -p 6443:443 \
         --env PHPLDAPADMIN_LDAP_HOSTS=172.17.0.2 \
         --detach osixia/phpldapadmin:0.9.0
 
+![Screenshot](prtsc/spring-ldap-3.png)
+
 You can access phpLDAPadmin on https://localhost:6443
+- user: cn=admin,dc=example,dc=org 
+- clave: admin
+
+
+![Screenshot](prtsc/spring-ldap-4.png)
+
+Create user 
+
+![Screenshot](prtsc/spring-ldap-4.1.png)
+
+![Screenshot](prtsc/spring-ldap-4.2.png)
+
+### Test OpenLDAP with Spring Boot
+
+Case of success
+
+![Screenshot](prtsc/spring-ldap-5.png)
+
+Case of failure
+
+![Screenshot](prtsc/spring-ldap-5.1.png)
+
+![Screenshot](prtsc/spring-ldap-5.2.png)
+
+
 
 
 
